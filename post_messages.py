@@ -2,7 +2,7 @@
 Author: Victor Gimenes
 Date: 08/05/2022
 
-Módulo criado para automatizar menssagens de alertas em canais do Teams. 
+Módulo criado para automatizar mensagens de alertas em canais do Teams. 
 
 Tutorial:               https://medium.com/towards-data-science/automate-teams-with-your-first-python-alerting-bot-bcc8f7c6ee5a
 Emojis:                 https://apps.timwhitlock.info/emoji/tables/unicode
@@ -12,7 +12,7 @@ Color Hex Color Codes:  https://www.color-hex.com
 def get_connector():
     """
       - URL responsible for the connection with the channel in Teams
-        via 'Incoming Webhook' connector through Bot.
+        via 'Incoming Webhook' connector.
     """
     return 'enter the webhook url you got from the teams webhook configuration here!'
 
